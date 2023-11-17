@@ -34,4 +34,20 @@ models:
   dbt_hol:
     # Config indicated by + and applies to all files under models/example/
     example:
-      +materialized: view
+      materialized: view
+      +enabled: false
+    core:
+      schema: core
+      materialized: view
+    mart:
+      schema: mart
+      materialized: view
+    staging:
+      schema: staging
+      materialized: view
+    tests:
+      schema: tests
+      materialized: view
+    transform:
+      schema: transform
+      materialized: view
