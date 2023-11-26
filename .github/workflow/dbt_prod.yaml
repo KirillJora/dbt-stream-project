@@ -33,7 +33,7 @@ jobs:
       - name: Prepare DBT profiles directory
         run: |
           mkdir -p ~/.dbt
-          cp profiles_github.yml ~/.dbt/profiles.yml
+          cp profiles.yml ~/.dbt/profiles.yml
         working-directory: ./
 
       - name: Install dbt packages
