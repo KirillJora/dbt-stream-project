@@ -22,7 +22,6 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
-
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
@@ -38,10 +37,6 @@ models:
     staging:
       schema: staging
       materialized: view
-    tests:
-      schema: tests
-      materialized: view
     transform:
       schema: transform
       materialized: view
-      +snowflake_warehouse: dbt_dev_heavy_wh
