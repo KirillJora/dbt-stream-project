@@ -44,11 +44,11 @@ jobs:
 
       - name: Run the models
         run: dbt run --profile dbt_core_snowflake_github --target prod
-        working-directory: ./
+        working-directory: ./dbt/dbt_hol
 
       - name: Run tests
         run: dbt test --profile dbt_core_snowflake_github --target prod
-        working-directory: ./
+        working-directory: ./dbt/dbt_hol
 
 # name: Run DBT in Docker
 
