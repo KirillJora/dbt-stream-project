@@ -7,11 +7,11 @@ The final result of this work is a basic ecommerce dashboard and looks like belo
 
 ## Tools used
 
-1. *Data transfer*: Fivetran
-2. *Data ingestion & storage*: Snowflake
-3. *Data transformation*: DBT
-4. *Data modelling automation*: Github Actions
-5. *Visualisation*: Looker Studio
+1. __Data transfer__: Fivetran
+2. __Data ingestion & storage__: Snowflake
+3. __Data transformation__: DBT
+4. __Data modelling automation__: Github Actions
+5. __Visualisation__: Looker Studio
 
 ## Tables lineage from DBT
 
