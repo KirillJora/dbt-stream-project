@@ -22,7 +22,7 @@ The final result of this work is a basic ecommerce dashboard and looks like belo
 
 ## Data Architecture
 
-![image](https://github.com/KirillJora/dbt-stream-project/assets/95725217/0f09f91d-ec6b-4377-afb1-a2be0081b62e)
+![Uploading image.png…]()
 
 
 ## Tables lineage from DBT
